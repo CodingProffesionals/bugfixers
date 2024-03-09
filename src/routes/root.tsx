@@ -1,8 +1,8 @@
-import { useContext } from 'react';
-import { LevelContext } from '../context/LevelContext.js';
+// import { useContext } from 'react';
+// import { LevelContext } from '../context/LevelContext.js';
 
 export default function Root() {
-    const level = useContext(LevelContext);
+    // const level = useContext(LevelContext);
     return (
       <>
         <div id="sidebar">
