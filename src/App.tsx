@@ -6,7 +6,7 @@ import {
 import Root from "./routes/root";
 import About from "./routes/about";
 import { UserContext } from "./context/UserContext";
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const router = createBrowserRouter([
   {
